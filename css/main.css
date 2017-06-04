@@ -1,0 +1,144 @@
+.header{
+    height: 80px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    color: #ffffff;
+}
+.header__logo{
+    margin-top: 10px;
+}
+.main{
+    margin: 0 auto;
+    padding: 0;
+    min-width: 1500px;
+}
+.calendar{
+    margin: 20px auto 0 auto;
+    padding: 0 15px;
+    font-size: 10px;
+}
+.day{
+    padding: 0;
+}
+.day table{
+    width: 100%;
+}
+.table__header{
+    height: 25px;
+    border: 1px solid #000000;
+    border-bottom: 3px solid #000000;
+    font-size: 14px;
+    text-align: center;
+    background-color: #FAFAE7;
+}
+.table__row{
+    height: 16px;
+}
+.table__row:hover{
+    background-color: yellow;
+}
+.table__date{
+    font-size: 12px;
+    border: 1px solid #000000;
+    position: relative;
+}
+.table__date:hover{
+    background-color: yellow;
+}
+.table__HourTd{
+    border-top: 2px solid #000000;
+}
+.event{
+    background-color: #33FF66;
+    border-radius: 15px;
+}
+.event p{
+    text-align: center;
+    font-weight: 600;
+    color: black;
+}
+.eventName{
+    width: 120px;
+    height: 25px;
+}
+.deleteBtn{
+    margin: 10px;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.deleteBtn input{
+    width: 15px;
+    height: 15px;
+    border: 1px solid;
+    padding: 0;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 700;
+    background-color: #FF0000;
+}
+.addBtn{
+    position: absolute;
+    top: -48px;
+    left: 40%;
+}
+.inputTable{
+    margin-left: 5%;
+    width: 90%;
+    height: 20px;
+    position: absolute;
+    top: -16px;
+    padding: 0;
+    border: 0;
+}
+.eventForm{
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    width: 685px;
+}
+.eventForm i{
+    font-size: 25px;
+}
+.eventForm{
+    background-color: #FAFAE7;
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 15px;
+}
+.eventForm label{
+    margin-left: 10px;
+}
+.subnitBtn{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #FFCC33;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+.numb{
+    width: 42px;
+    height: 25px;
+}
+@media only screen and (max-width: 1500px) {
+.main{
+    max-width: 1200px;
+    min-width: 0;
+}
+}
+@media only screen and (max-width: 1200px) {
+.main{
+    max-width: 800px;
+}
+}
+@media only screen and (max-width: 673px) {
+.eventForm{
+    width: 100%;
+}
+}
